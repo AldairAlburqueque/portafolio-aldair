@@ -8,8 +8,6 @@ const Home = () => {
   return (
     <div className='home'>
       <Particle />
-      <div>
-      </div>
       <div className='i-left'>
         <div className="i-name">
           <span className='title_span'>Hola, soy</span> 
@@ -25,15 +23,27 @@ const Home = () => {
           <span className='text_span'>Hola, soy desarrollador full-stack junior, trabajo  con react.js y node.js(express).</span>
         </div>
         <div className="i-icons">
-          <a href="https://github.com/AldairAlburqueque" target='_blank'>
-            <i className='bx bx-s  bxl-github' ></i>
-          </a>
-          <a href="https://www.linkedin.com/feed/" target='_blank'>
-            <i className='bx bx-s  bxl-linkedin'></i>
-          </a>
-          
-          <i className='bx bx-s  bxl-instagram'></i>
+          <ul className='social'>
+          <li>
+            <a href="https://github.com/AldairAlburqueque" target='_blank'>
+              <span><i className='bx fa  bxl-github'></i>Github</span>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/feed/" target='_blank'>
+              <span><i className='bx fa  bxl-linkedin'></i>Linkedin</span>
+              
+            </a>
+          </li>
+          <li>
+            <a href="https://www.youtube/" target='_blank'>
+              <span><i className='bx fa  bxl-youtube'></i>Youtube</span>
+              
+            </a>
+          </li>
+        </ul>
         </div>
+        
         
       </div>
 

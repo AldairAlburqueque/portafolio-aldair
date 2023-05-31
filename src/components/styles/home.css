@@ -1,7 +1,9 @@
+
 .home{
     height: 100vh;
     display: flex;
     padding: 10rem 4rem;
+
 }
 .i-left{
     display: flex;
@@ -43,6 +45,8 @@
 .i-icons{
     margin-top: 3rem;
     display: flex;
+    justify-content: center;
+    align-items: center;
     gap: 0rem;
 }
 .i-icons>*{
@@ -63,6 +67,116 @@
     max-width: 500px;
     right: 0;
     border-radius: 5px;
+}
+
+.bxl-github {
+    color: #000;
+}
+.bxl-linkedin {
+    color: #0a66c2;
+}
+.bxl-youtube {
+    color: #f00000;
+} 
+
+.social
+{
+    display: flex;
+    margin: 0 0 30px;
+    padding: 0;
+
+}
+.social li
+{
+    margin: 0;
+}
+.social li .fa
+{
+    font-size: 25px;
+    color: #262626;
+    line-height: 40px;
+    transition: .5s;
+    padding-right: 10px;
+}
+.social li a span
+{
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    color: #262626;
+    letter-spacing: 3px;
+    transition: .5s;
+}
+.social li a {
+    text-decoration: none;
+    display: block;
+    width: 150px;
+    height: 50px;
+    background-color: #e0e0e0;
+    text-align: left;
+    padding-left: 20px;
+    transform: rotate(-30deg) skew(25deg) translate(0, 0);
+    transition: .5s;
+    box-shadow: -20px 20px 10px rgba(0, 0, 0, 0.5,)
+}
+.social li a::before{
+    content: '';
+    position: absolute;
+    top: 10px;
+    left: -20px;
+    height: 100%;
+    width: 20px;
+    background: #b1b1b1;
+    transform: .5;
+    transform: rotate(0) skewY(-45deg);
+}
+.social li a::after{
+    content: '';
+    position:  absolute;
+    left: -10px;
+    bottom: -20px;
+    height: 20px;
+    width: 100%;
+    background: #b1b1b1;
+    transform:  .5s;
+    transform: rotate(0) skewX(-45deg);
+}
+.social li a:hover{
+    transform: rotate(-30deg) skew(25deg) translate(20px, -15px);
+    box-shadow: -50px 50px 50px rgba(0, 0, 0, 0.5);
+}
+.social li a:hover .fa{
+    color: #fff;
+}
+.social li a:hover span{
+    color: #fff;
+}
+.social li:hover:nth-child(1) a{
+    background: #474545;
+}
+.social li:hover:nth-child(1) a::before{
+    background: #474545;
+}
+.social li:hover:nth-child(1) a::after{
+    background: #474545;
+}
+.social li:hover:nth-child(2) a{
+    background: #0a66c2;
+}
+.social li:hover:nth-child(2) a::before{
+    background: #0a66c2;
+}
+.social li:hover:nth-child(2) a::after{
+    background: #0a66c2;
+}
+.social li:hover:nth-child(3) a{
+    background: #f00000;
+}
+.social li:hover:nth-child(3) a::before{
+    background: #f00000;
+}
+.social li:hover:nth-child(3) a::after{
+    background: #f00000;
 }
 
 @media (max-width:850px){
