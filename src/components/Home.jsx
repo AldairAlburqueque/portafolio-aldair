@@ -12,10 +12,10 @@ const Home = () => {
       </div>
       <div className='i-left'>
         <div className="i-name">
-          <span className='title_span'>Hola, mi nombre es</span> 
+          <span className='title_span'>Hola, soy</span> 
           <Typewriter
           options={{
-            strings: [ 'Aldair'],
+            strings: ['< Aldair />'],
             autoStart: true,
             loop: true,
             typeSpeed: 90,
