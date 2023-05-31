@@ -1,9 +1,6 @@
-
 .home{
-    height: 100vh;
     display: flex;
-    padding: 10rem 4rem;
-
+    padding: 8rem 3rem;
 }
 .i-left{
     display: flex;
@@ -16,10 +13,6 @@
     display: flex;
     flex-direction: column;
     gap: 2rem;
-}
-.title_span {
-    font-weight: 100;
-    
 }
 .text_span {
     font-weight: 700;
@@ -38,12 +31,8 @@
     font-size: 14px;
     margin-top: 10px;
 }
-.bx-s{
-    color: var(--skyBlue);
-    font-size: 100px;
-}
 .i-icons{
-    margin-top: 3rem;
+    margin-top: 6rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -60,7 +49,6 @@
     height: 50px;
     display: flex;
     justify-content: center;
-    /* align-items: center; */
 }
 .photo{
     height: 400px;
@@ -68,16 +56,6 @@
     right: 0;
     border-radius: 5px;
 }
-
-.bxl-github {
-    color: #000;
-}
-.bxl-linkedin {
-    color: #0a66c2;
-}
-.bxl-youtube {
-    color: #f00000;
-} 
 
 .social
 {
@@ -152,13 +130,13 @@
     color: #fff;
 }
 .social li:hover:nth-child(1) a{
-    background: #474545;
+    background: #5e5d5d;
 }
 .social li:hover:nth-child(1) a::before{
-    background: #474545;
+    background: #5e5d5d;
 }
 .social li:hover:nth-child(1) a::after{
-    background: #474545;
+    background: #5e5d5d;
 }
 .social li:hover:nth-child(2) a{
     background: #0a66c2;
@@ -178,8 +156,17 @@
 .social li:hover:nth-child(3) a::after{
     background: #f00000;
 }
+.social li:hover:nth-child(4) a{
+    background:  #1d9bf0;
+}
+.social li:hover:nth-child(4) a::before{
+    background:  rgb(29, 155, 240);
+}
+.social li:hover:nth-child(4) a::after{
+    background:  rgb(29, 155, 240);
+}
 
-@media (max-width:850px){
+@media (max-width:1050px){
     .home{
         display: flex;
         flex-direction: column;
@@ -202,6 +189,9 @@
     .photo{       
         height: 200px;
         max-width: 100%;
+    }
+    .i-icons{
+        margin: 2rem;
     }
 }
 

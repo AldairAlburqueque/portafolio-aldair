@@ -20,7 +20,7 @@ const Home = () => {
               backSpeed: 60,
           }}
         />
-          <span className='text_span'>Hola, soy desarrollador full-stack junior, trabajo  con react.js y node.js(express).</span>
+          <span className='text_span'>Hola, soy desarrollador web full-stack junior, trabajo  con react.js y node.js(express).</span>
         </div>
         <div className="i-icons">
           <ul className='social'>
@@ -36,15 +36,18 @@ const Home = () => {
             </a>
           </li>
           <li>
-            <a href="https://www.youtube/" target='_blank'>
+            <a href="https://www.youtube.com" target='_blank'>
               <span><i className='bx fa  bxl-youtube'></i>Youtube</span>
               
             </a>
           </li>
+          <li>
+            <a href="https://www.twiter" target='_blank'>
+              <span><i className='bx fa  bxl-twitter'></i>Twitter</span>
+            </a>
+          </li>
         </ul>
         </div>
-        
-        
       </div>
 
       <div className="i-right">

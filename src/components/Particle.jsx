@@ -25,7 +25,7 @@ export const Particle = () => {
                         "value": 100,
                         "density": {
                           "enable": true,
-                          "value_area": 900
+                          "value_area": 600
                         }
                       },
                       "color": {
