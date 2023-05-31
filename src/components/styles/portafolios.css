@@ -1,0 +1,90 @@
+.card_portafolio{
+    background-color: #298cc5 ;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1em;
+}
+.portafolio_name{
+    text-align: center;
+    padding: 30px;
+    
+}
+.portafolio_title{
+    font-size: 1.7em;
+    margin-bottom: 20px;
+}
+.portafolio_text{
+    font-size: 1.1em;
+}
+
+.portafolio_list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1em;
+}
+.portafolio_list li{
+    position: relative;
+    font-size:larger;
+    width: 300px;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 6px;
+    cursor: pointer;
+}
+.portafolio_list li img{
+    width: 100%;
+    height: 100%;
+    transition:  500ms ease-out;
+}
+.portafolio_list li .capa{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 103, 123, 0.7);
+    transition: 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+
+.portafolio_list li:hover > .capa{
+    opacity: 1;
+    visibility: visible;
+}
+.portafolio_list li:hover > .capa h3{
+    margin-top: 60px;
+    margin-bottom: 15px;
+}
+.portafolio_list li .capa h3{
+    color: #fff;
+    font-weight: 400;
+    margin-bottom: 120px;
+    transition: 500ms ease-out;
+    margin-top: 20px;
+}
+.portafolio_list li .capa p{
+    color: #fff;
+    font-size: 15px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+}
+.capa-icons{
+    font-size: 50px;
+}
+.capa-icons a{
+    color: black;
+}
+
+@media (min-width: 650px) {
+    .portafolio_list{
+        margin: 50px;
+        gap:3em
+    }
+}

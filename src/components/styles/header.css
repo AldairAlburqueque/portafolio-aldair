@@ -1,0 +1,156 @@
+.header{
+  height: 10vh;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  padding: 0 0.4em;
+  position: fixed;
+  z-index: 1000;
+  box-shadow: 1px 1px 13px #444444;
+}
+.nav_header{
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100%;
+  transition: linear;
+  transform: translateX(-100%);
+  background-color: rgba(0, 0, 0, .7);
+  z-index: 100;
+}
+.nav_header.open_menu{
+  transform: translateX(0);
+}
+.menu_list{
+  background-color: rgb(250, 250, 250);
+
+  display: flex;
+  flex-direction:column;
+  width: 70%;
+  height: 100%;
+  align-items: center;
+  justify-content: flex-start;
+  
+} 
+.link_item{
+  margin-top: 4rem;
+  color:#444444;
+  text-decoration: none;
+  font-weight: bold;
+  position: relative;
+
+}
+
+.link_item::after{
+  position: absolute;
+  content: '';
+  background-color: black;
+  bottom: -5px;
+  left: 0;
+  width: 0%;
+  height: 3px;
+  transition: 0.3s ease all;
+}
+.link_item a{
+  color: #138dd3; 
+}
+
+.link_item a:hover {
+  color: rgb(230, 4, 4); 
+  font-size: 1.01rem;
+}
+
+.menu_hamburger{
+  z-index: 300;
+  cursor:  pointer;
+  right: 0;
+  color: #121212;
+
+}
+.bx-menu{
+  font-size: 3em;
+  right: 0;
+}
+.bx-x{
+  font-size: 3em;
+  left: 60%;
+  color: #fff;
+}
+.dark_mode{
+  font-size: 1.5em;
+  padding: 25px;
+  z-index: 1000;
+}
+
+@media (min-width:650px){
+  .menu_hamburger{
+    display: none;
+  }
+  .nav_header{
+    position: static;
+    /* margin-left: 0; */
+    transform: translateX(0);
+    flex-basis: 100%;
+    height: 100%;
+    transition: linear;
+  }
+  .menu_list{
+    width: 100%;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    background-color: #fff;
+    position: absolute;
+    display: flex;
+  }
+  .link_item{
+    display: inline-block;
+    margin-top: 0;
+    margin-right: 2em;
+  }
+  .link_item::after a{
+    content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        border-top: 2px solid #262626;
+        border-bottom: 2px solid #262626;
+        transform: scaleY(2);
+        opacity: 0;
+        transition: .3s;
+  }
+  .link_item:hover a{
+    color: rgb(230, 4, 4);  
+    
+  }
+
+  .menu_hamburguer{
+    position: absolute;
+    right: 0;
+    background-color: aqua;
+  
+  }
+  .bx-x{
+    font-size: 3em;
+    left: 40%;
+    z-index: 500;
+    position: fixed;
+    color: #fff;
+    background-color: aqua;
+  }
+  .dark_mode{
+    position: fixed;
+    z-index: 300;
+  }
+  .header_list{
+    flex-direction: row;
+  }
+  .header_list li{
+    padding: 20px;
+  }
+}

@@ -1,0 +1,58 @@
+.skill_name{
+    padding: 50px;
+}
+.skills_title{
+    font-size: 1.7em;
+    text-align: center;
+}
+.skills_list{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    place-items: center;
+    place-content:center;
+}
+
+.skills_list li{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    text-align: center;
+
+}
+.bx-skill{
+    font-size: 60px;
+}
+.bxl-html5{
+    color: rgb(231, 115, 19);
+}
+.bxl-css3{
+    color: rgb(28, 28, 245);
+}
+.bxl-redux {
+    color: rgb(118, 74, 188);
+}
+.bxl-javascript {
+    color: rgb(248, 248, 13);
+}
+.bxl-react{
+    color: rgb(11, 245, 245);
+}
+.bxl-nodejs{
+    color: rgb(3, 143, 3);
+}
+.bxl-github{
+    color: rgb(15, 15, 15);
+} 
+.bxl-postgresql {
+    color: rgb(51, 103, 145);
+}
+/* .skills_img:hover{
+    transform: rotate(15deg);
+    transition: transform 800ms ease;
+} */
+
+
+@media (min-width:650px){
+    .skills{
+    margin: 0 10%;}
+}

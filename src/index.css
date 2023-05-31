@@ -1,0 +1,30 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  scroll-margin-top: 80px;
+}
+html{
+  scroll-behavior: smooth;
+}
+body{
+  font-family: 'Nunito', sans-serif;
+  
+  /* background-color: var(--color-body); */
+}
+a{
+  text-decoration: none;
+}
+h3{
+  font-weight: 800;
+}
+img{
+  width: 100%;
+  display: block;
+}
+li{
+  list-style: none;
+}
+button{
+  border: none;
+}

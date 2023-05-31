@@ -1,0 +1,58 @@
+.pepe {
+    z-index: -1;
+}
+.presentation{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+.about{
+    margin-top: 30px;
+    width: 50%;
+    height: 30%;
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 50px ;
+    display: flex;
+    flex-direction: column;
+}
+.about-title{
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+.about p{
+    line-height: 1.5;
+    letter-spacing: 1.5px;
+    font-size: 14px;
+}
+.pdf_btn{
+    padding: 15px;
+    width: 130px;
+    background-color: var(--skyBlue);
+    align-self: center;
+    text-decoration: none;
+    margin-top: 25px;
+    z-index: 100;
+}
+.pdf_btn a{
+    color: white;
+}
+.bxs-download{
+    color: white;
+}
+
+@media (min-width: 650px) {
+    .presentation{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+    }
+    .about_img{
+        width: 400px;
+        max-width: 500px;
+    }
+}

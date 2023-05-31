@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500;600;700;800;900&display=swap');
+
+:root
+{
+  --sky: #40cfff;
+  --skyBlue: #298cc5;
+  --black: #242049;
+  --gray: #788097;
+  --blueCard: #ddf8fe;
+  --purple: #fc098e;
+  --boxShadow: 0px 19px 60px rgb(0 0 0  / 8%);
+  --blueCard: rgba(14, 163, 233, 0.45);
+  --smboxShadow: -79px 51px 60px rgba(0, 0, 0, 0.08);
+}
+
+/* .App{
+  padding: 0.5rem 3.5rem;
+  overflow: hidden;
+  color: var(--black);
+} */
