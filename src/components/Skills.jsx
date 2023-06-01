@@ -3,12 +3,12 @@ import './styles/skills.css'
 
 const Skills = () => {
   return (
-    <div className='card_skills' id='habilidades'>
+    <div className=' ' id='habilidades'>
       <div className='skill_name'>
         <h3 className='skills_title'>Habilidades</h3>
       </div>
       <div className='skills'>
-        <ul className='skills_list'>
+        <ul className='cube'>
           <li className='front'>
           <i className='bx bxl-html5 bx-skill'></i>
             HTML
@@ -30,26 +30,27 @@ const Skills = () => {
           </ul>
 
 
-          {/* <ul>
-            <li>
+          <ul className='cube'>
+            <li className='front'>
           <i className='bx bxl-nodejs bx-skill'></i>
             Node JS
           </li>
-          <li>
+          <li className='back'>
           <i className='bx bxl-github bx-skill'></i>
             GitHub
           </li>
-          <li>
+          <li className='left'>
           <i className='bx bxl-postgresql bx-skill'></i>
             PostgresSQL
           </li>
-          <li>
+          <li className='right'>
           <i className='bx bxl-javascript bx-skill'></i>
             JavaScript
           </li>
-          </ul> */}
+          <li className='top'>top</li>
+          <li className='bottom'>Botton</li>
+          </ul>
           
-       
       </div>
     </div>
   )
