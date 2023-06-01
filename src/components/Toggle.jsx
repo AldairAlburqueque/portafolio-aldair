@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import './styles/toggle.css'
 
 import { themeContext } from '../Context'
@@ -12,10 +12,11 @@ const Toggle = () => {
   const handleClick = () => {
     theme.dispatch({type: 'toggle'})
   }
+  
 
   return (
     <div className='toggle' onClick={handleClick}>
-      <i className={darkMode ?"bx bx-moon" :"bx bx-sun"}></i>
+      <i className={darkMode ?"bx bx-sun" :"bx bx-moon"}></i>
     </div>
   )
 }

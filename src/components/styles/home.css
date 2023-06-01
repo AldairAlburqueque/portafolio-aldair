@@ -1,6 +1,6 @@
 .home{
     display: flex;
-    padding: 8rem 3rem;
+    padding: 8rem 3rem 2rem;
 }
 .i-left{
     display: flex;
@@ -170,7 +170,7 @@
     .home{
         display: flex;
         flex-direction: column;
-        height: 120vh;
+        height: 100vh;
         padding-top: 5rem;
     }
     .photo{       
@@ -183,7 +183,7 @@
     .home{
         display: flex;
         flex-direction: column;
-        height: 120vh;
+        /* height: 120vh; */
         padding-top: 5rem;
     }
     .photo{       
