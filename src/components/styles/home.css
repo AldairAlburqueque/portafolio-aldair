@@ -1,6 +1,7 @@
 .home{
     display: flex;
     padding: 8rem 3rem 2rem;
+    min-height: 100vh;
 }
 .i-left{
     display: flex;
@@ -12,7 +13,7 @@
 .i-name{
     display: flex;
     flex-direction: column;
-    gap: 2rem;
+    gap: 1rem;
 }
 .text_span {
     font-weight: 700;
@@ -62,7 +63,6 @@
     display: flex;
     margin: 0 0 30px;
     padding: 0;
-
 }
 .social li
 {
@@ -78,6 +78,9 @@
 }
 .social li a span
 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     padding: 0;
     margin: 0;
     position: absolute;
@@ -123,6 +126,7 @@
     transform: rotate(-30deg) skew(25deg) translate(20px, -15px);
     box-shadow: -50px 50px 50px rgba(0, 0, 0, 0.5);
 }
+
 .social li a:hover .fa{
     color: #fff;
 }
@@ -130,23 +134,24 @@
     color: #fff;
 }
 .social li:hover:nth-child(1) a{
-    background: #5e5d5d;
+    background: #0a66c2;
 }
 .social li:hover:nth-child(1) a::before{
-    background: #5e5d5d;
+    background: #0a66c2;
 }
 .social li:hover:nth-child(1) a::after{
-    background: #5e5d5d;
+    background: #0a66c2;
 }
 .social li:hover:nth-child(2) a{
-    background: #0a66c2;
+    background: #5e5d5d;
 }
 .social li:hover:nth-child(2) a::before{
-    background: #0a66c2;
+    background: #5e5d5d;
 }
 .social li:hover:nth-child(2) a::after{
-    background: #0a66c2;
+    background: #5e5d5d;
 }
+
 .social li:hover:nth-child(3) a{
     background: #f00000;
 }

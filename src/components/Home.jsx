@@ -25,14 +25,13 @@ const Home = () => {
         <div className="i-icons">
           <ul className='social'>
           <li>
-            <a href="https://github.com/AldairAlburqueque" target='_blank'>
-              <span><i className='bx fa  bxl-github'></i>Github</span>
+            <a href="https://www.linkedin.com/feed/" target='_blank'>
+              <span><i className='bx fa  bxl-linkedin'></i>Linkedin</span>
             </a>
           </li>
           <li>
-            <a href="https://www.linkedin.com/feed/" target='_blank'>
-              <span><i className='bx fa  bxl-linkedin'></i>Linkedin</span>
-              
+            <a href="https://github.com/AldairAlburqueque" target='_blank'>
+              <span><i className='bx fa  bxl-github'></i>Github</span>
             </a>
           </li>
           <li>

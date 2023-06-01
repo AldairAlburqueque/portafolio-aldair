@@ -75,7 +75,7 @@ export const Particle = () => {
                       },
                       "move": {
                         "enable": true,
-                        "speed": 3,
+                        "speed": 1,
                         "direction": "bottom",
                         "random": true,
                         "straight": true,
@@ -105,7 +105,7 @@ export const Particle = () => {
                         "grab": {
                           "distance": 400,
                           "line_linked": {
-                            "opacity": 1
+                            "opacity": 10
                           }
                         },
                         "bubble": {
