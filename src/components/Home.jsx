@@ -42,7 +42,7 @@ const Home = () => {
             </a>
           </li>
           <li>
-            <a href="https://www.twiter" target='_blank'>
+            <a href="https://twitter.com/aldairalbur" target='_blank'>
               <span><i className='bx fa  bxl-twitter'></i>Twitter</span>
             </a>
           </li>
