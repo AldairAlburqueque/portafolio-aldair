@@ -1,27 +1,16 @@
 .habilidades{
-    min-height: 80vh;
+    min-height: 88vh;
 }
 .skill_name{
     padding: 50px;
+    margin-bottom: 100px;
 }
 .skills_title{
     font-size: 1.7em;
     text-align: center;
 }
-.skills_list{
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-    place-items: center;
-    place-content:center;
-}
 
-.skills_list li{
-    display: flex;
-    flex-direction: column;
-    padding: 20px;
-    text-align: center;
 
-}
 .bx-skill{
     font-size: 60px;
 }
@@ -49,40 +38,30 @@
 .bxl-postgresql {
     color: rgb(51, 103, 145);
 }
-
 .skills{
-    /* position: absolute; */
-    /* height: 100vh;
-    width: 100vw; */
-    /* top: 50vh;
-    left: 50vw; */
-    /* transform: translate(-50%, -50%); */
     display: flex;
-    flex-direction: column;
     flex-wrap: wrap;
     justify-content: center;
-    perspective: 1000px;
     align-items: center;
+    margin: 100px;
+    gap: 5rem;
+    perspective: 1000px;
 }
 
 .cube{
     height: 140px;
     width: 140px;
-    /* flex-wrap: wrap; */
-    /* position: absolute; */
-    /* top: 100px;
-    left: auto; */
-    transform:  rotate(-90deg);
+    position: relative;
     transform-style: preserve-3d;
-    animation: animate linear 7s infinite;
+    animation: animate linear 11s infinite;
 }
 @keyframes animate {
     from{
-        transform: rotateY(0deg) rotateY(-90deg);
+        transform: rotateY(0deg) rotateY(90deg);
     }
 
     to{
-        transform: rotateY(-180deg) rotateY(-360deg);
+        transform: rotateY(90deg) rotateY(360deg);
     }
 }
 .cube li {
@@ -91,24 +70,46 @@
     text-align: center;
     padding: 40px 0px;
     color: white;
-    background: black;
-    border: 2px solid white;
+    background: rgb(138, 32, 32);
+    border: 2px solid rgb(223, 222, 222);
     box-sizing: border-box;
     position: absolute;
 }
 .front{
     transform: translateZ(70px);
+    display: flex;
+    flex-direction: column;
 }
 .back{
     transform: translateZ(-70px);
+    display: flex;
+    flex-direction: column;;
+}
+.back::after{
+    content: 'Redux';
+    transform: rotateY(180deg);
+}
+
+.back_two{
+    transform: translateZ(-70px);
+    display: flex;
+    flex-direction: column;;
+}
+.back_two::after{
+    content: 'Git';
+    transform: rotateY(180deg);
 }
 .left{
     right: 70px;
     transform: rotateY(-90deg);
+    display: flex;
+    flex-direction: column;
 }
 .right{
     left: 70px;
     transform: rotateY(90deg);
+    display: flex;
+    flex-direction: column;
 }
 .top{
     bottom: 70px;
@@ -121,5 +122,7 @@
 
 @media (min-width:650px){
     .skills{
-    margin: 0 10%;}
+    margin: 0 10%;
+    gap: 15rem;
+}
 }

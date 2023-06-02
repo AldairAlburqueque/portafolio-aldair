@@ -14,19 +14,18 @@ const Skills = () => {
             HTML
           </li>
           <li className='back'>
-          <i className='bx bxl-css3 bx-skill'></i>
-            CSS
+            <i className='bx bxl-redux bx-skill'></i>
           </li>
           <li className='left'>
           <i className='bx bxl-react bx-skill'></i>
             React JS
           </li>
           <li className='right'>
-          <i className='bx bxl-redux bx-skill'></i>
-            Redux
+          <i className='bx bxl-css3 bx-skill'></i>
+            CSS
           </li>
-          <li className='top'>top</li>
-          <li className='bottom'>Botton</li>
+          <li className='top'></li>
+          <li className='bottom'></li>
           </ul>
 
 
@@ -35,9 +34,8 @@ const Skills = () => {
           <i className='bx bxl-nodejs bx-skill'></i>
             Node JS
           </li>
-          <li className='back'>
+          <li className='back_two'>
           <i className='bx bxl-github bx-skill'></i>
-            GitHub
           </li>
           <li className='left'>
           <i className='bx bxl-postgresql bx-skill'></i>
@@ -47,8 +45,8 @@ const Skills = () => {
           <i className='bx bxl-javascript bx-skill'></i>
             JavaScript
           </li>
-          <li className='top'>top</li>
-          <li className='bottom'>Botton</li>
+          <li className='top'></li>
+          <li className='bottom'></li>
           </ul>
           
       </div>

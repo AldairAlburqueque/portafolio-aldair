@@ -81,8 +81,6 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 0;
-    margin: 0;
     position: absolute;
     color: #262626;
     letter-spacing: 3px;
@@ -98,7 +96,7 @@
     padding-left: 20px;
     transform: rotate(-30deg) skew(25deg) translate(0, 0);
     transition: .5s;
-    box-shadow: -20px 20px 10px rgba(0, 0, 0, 0.5,)
+    box-shadow: -20px 20px 10px rgba(0, 0, 0, 0.5)
 }
 .social li a::before{
     content: '';
@@ -175,7 +173,6 @@
     .home{
         display: flex;
         flex-direction: column;
-        height: 100vh;
         padding-top: 5rem;
     }
     .photo{       
