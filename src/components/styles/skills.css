@@ -70,7 +70,7 @@
     text-align: center;
     padding: 40px 0px;
     color: white;
-    background: rgb(65, 153, 153);
+    background: linear-gradient(#929292 1%, rgb(65, 153, 153));
     border: 2px solid rgb(223, 223, 222);
     box-sizing: border-box;
     position: absolute;
@@ -115,9 +115,10 @@
     bottom: 70px;
     transform: rotateX(90deg);
 }
+
 .bottom{
     top: 70px;
-    transform: rotateX(-90deg);
+    transform: rotateX(-90deg); 
 }
 
 @media (min-width:650px){
