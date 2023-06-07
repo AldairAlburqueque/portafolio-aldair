@@ -7,7 +7,7 @@ export const Portafolio = () => {
   return (
     <div className='card_portafolio' id='portafolio'>
       <div className='portafolio_name'>
-        <h3 className='portafolio_title'>Portafolio</h3>
+        <h2 className='portafolio_title'>Portafolio</h2>
         <p className='portafolio_text'>Estos son mis proyectos realizados</p>
       </div>
         <ul className="portafolio_list" 

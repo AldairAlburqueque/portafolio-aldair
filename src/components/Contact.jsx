@@ -22,7 +22,7 @@ const Contact = () => {
   
   return (
     <section className="contact section" id='contact'>
-      <h3 className="section_title">Contactame</h3>
+      <h2 className="section_title">Contactame</h2>
 
       <div className="contact_container container grid">
         <div className="contact_content">
@@ -33,10 +33,11 @@ const Contact = () => {
               <i className="bx bx-mail-send contact_card-icon"></i>
 
               <h3 className="contact_card-title">Email</h3>
-              <span className='contact_card-data'>user@gmail.com</span>
+              <span className='contact_card-data'>aldairalburqueque8@gmail.com</span>
 
-              <a href="mailto:examplemail.com.com" className="contact_button">Write me{' '}
+              <a href="mailto:aldairalburqueque8@gmail.com" className="contact_button" target='blank_'>Write me{' '}
                 <i className="bx bx-right-arrow-alt contact_button-icon"></i>
+                
               </a>
             </div>
 
@@ -46,7 +47,7 @@ const Contact = () => {
               <h3 className="contact_card-title">Whatsapp</h3>
               <span className='contact_card-data'>+51 975751508</span>
 
-              <a href="https://api.whatsapp.com/send?phone=972751508&text=Hello, more information1" className="contact_button">Write me{' '}<i className="bx bx-right-arrow-alt contact_button-icon"></i></a>
+              <a href="https://api.whatsapp.com/send?phone=972751508&text=Hello, more information1" className="contact_button" target='blank_'>Write me{' '}<i className="bx bx-right-arrow-alt contact_button-icon"></i></a>
             </div>
           </div>
         </div>
@@ -67,15 +68,15 @@ const Contact = () => {
             </div>
 
             <div className="contact_form-div">
-              <label htmlFor="" className="contact_form-tag"> Mail</label>
+              <label htmlFor="" className="contact_form-tag"> Email</label>
               <input id="send" type="email" name='email' className='contact_form-input' placeholder='Insert your email' 
               required           
               />
             </div>
 
             <div className="contact_form-div contact_form-area">
-              <label htmlFor="" className="contact_form-tag">Project</label>
-              <textarea id="send" name="project" cols="30" rows="10" className='contact_form-input' placeholder='Writer your project'
+              <label htmlFor="" className="contact_form-tag">Message</label>
+              <textarea id="send" name="project" cols="30" rows="10" className='contact_form-input' placeholder='Writer your message'
               required
               ></textarea>
             </div>

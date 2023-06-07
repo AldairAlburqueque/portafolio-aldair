@@ -5,7 +5,7 @@ const Skills = () => {
   return (
     <div className='habilidades' id='habilidades'>
       <div className='skill_name'>
-        <h3 className='skills_title'>Habilidades</h3>
+        <h2 className='skills_title'>Habilidades</h2>
       </div>
       <div className='skills'>
         <ul className='cube'>

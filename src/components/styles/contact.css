@@ -37,6 +37,10 @@
     text-align: center;
     background-color: var(--skyBlue);
     z-index: 10;
+    transition: transform .5s ease;
+}
+.contact_card:hover{
+    transform: scale(1.01);
 }
 .contact_card-icon{
     font-size: 2rem;
@@ -92,6 +96,10 @@
     outline: none;
     border-radius: 0.75rem;
     padding: 1.5rem;
+    transition: transform 0.5s ease;
+}
+.contact_form-input:hover {
+    transform: scale(1.003);
 }
 
 ::placeholder {
@@ -122,6 +130,10 @@
     border-radius: 5px;
     background-color: var(--purple);
     color: inherit;
+    transition: transform 0.5s ease-in-out;
+}
+.button--flex:hover {
+    transform: scale(1.05);
 }
 
 @media screen and (max-width: 768px) {

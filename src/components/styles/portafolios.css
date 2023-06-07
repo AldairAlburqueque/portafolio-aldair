@@ -1,5 +1,5 @@
 .card_portafolio{
-    background-color: #298cc5 ;
+    background-color: var(--sky) ;
     width: 100%;
     min-height: 100vh;
     display: flex;
@@ -11,10 +11,12 @@
     text-align: center;
     padding: 30px;
     
+    
 }
 .portafolio_title{
     font-size: 1.7em;
     margin-bottom: 20px;
+    color: rgb(224, 32, 32);
 }
 .portafolio_text{
     font-size: 1.1em;

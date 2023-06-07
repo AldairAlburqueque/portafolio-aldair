@@ -15,8 +15,9 @@ body{
 a{
   text-decoration: none;
 }
-h3{
+h2{
   font-weight: 800;
+  color: var(--skyBlue);
 }
 img{
   width: 100%;
