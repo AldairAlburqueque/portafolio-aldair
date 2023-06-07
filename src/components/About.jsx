@@ -4,12 +4,12 @@ import './styles/about.css'
 const About = () => {
 
   const [scrollTo , setScrollTo] = useState(false)
-  console.log(scrollTo)
+  const [scrollAbout, setScrollAbout] = useState(false)
  
   useEffect(() =>{
   
     const handleScroll = () => {
-      const cardEventElement = document.querySelector('.presentacion');
+      const cardEventElement = document.querySelector('.about_img');
 
       if (cardEventElement) {
           if (isInViewport(cardEventElement)) {
@@ -18,13 +18,22 @@ const About = () => {
               setScrollTo(false);
           }
       }
+      
+      const cardEvent = document.querySelector('.about');
 
+      if (cardEventElement) {
+          if (isInViewport(cardEvent)) {
+              setScrollAbout(true);
+          } else {
+              setScrollAbout(false);
+          }
+      }
   };
 
   const isInViewport = (element) => {
       const rect = element.getBoundingClientRect();
       const windowHeight = window.innerHeight || document.documentElement.clientHeight;
-      const topOffset = 200;
+      const topOffset = 100;
 
       return rect.top + topOffset < windowHeight;
   };
@@ -37,11 +46,12 @@ const About = () => {
     
   }, [])
   return (
-    <div className={`presentacion ${scrollTo ? 'fade-in' : ''}`}>
-      <div className= 'about_img'>
+    
+    <div className={`presentacion }`}>
+      <div className= {`about_img ${scrollTo ? 'fade-in' : ''}`}>
         <img src="./about.jpg" alt="" />
       </div>
-      <div className="about" id='sobreMi'>
+      <div className={`about ${scrollAbout ? 'fade' : ''}`} id='sobreMi'>
         <h2 className='about-title'>Sobre mí</h2>
         <p >Hola, soy un desarrollador web con la capacidad necesaria para realizar o resolver cualquier proyecto web. Una persona que está en constante aprendizaje así como también está dispuesto ayudar a quienes lo necesiten. Apasionado del mundo tecnológico y gamer.
           Recuerda :¡Tus metas, son las mías!

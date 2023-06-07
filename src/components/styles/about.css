@@ -7,9 +7,11 @@
     align-items: center;
     flex-wrap: wrap;
     gap: 1rem;
+    overflow: hidden;
+}
+.about_img{
     transition: transform .7s ease;
-    transform: translateX(-100%);
-
+    transform: translateX(-130%);
 }
 .fade-in {
     transform:  translateY(0);
@@ -25,6 +27,13 @@
     padding-bottom: 50px ;
     display: flex;
     flex-direction: column;
+    transition: transform .7s ease;
+    transform: translateX(150%);
+}
+.fade{
+    transform:  translateY(0);
+    scale: 1;
+    opacity: 1;
 }
 
 
