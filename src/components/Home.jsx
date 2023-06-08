@@ -1,13 +1,11 @@
 import React from 'react'
 import Typewriter from 'typewriter-effect'
 import './styles/home.css'
-import { Particle } from './Particle'
 
 const Home = () => {
 
   return (
     <div className='home'>
-      <Particle />
       <div className='i-left'>
         <div className="i-name">
           <span className='title_span'>Hola, soy</span> 
