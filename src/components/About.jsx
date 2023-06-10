@@ -5,10 +5,11 @@ const About = () => {
 
   const [scrollTo , setScrollTo] = useState(false)
   const [scrollAbout, setScrollAbout] = useState(false)
- 
+  
   useEffect(() =>{
   
     const handleScroll = () => {
+      
       const cardEventElement = document.querySelector('.about_img');
 
       if (cardEventElement) {
@@ -45,6 +46,7 @@ const About = () => {
   };
     
   }, [])
+
   return (
     
     <div className={`presentacion }`}>
