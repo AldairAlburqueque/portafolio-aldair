@@ -53,7 +53,7 @@
     width: 140px;
     position: relative;
     transform-style: preserve-3d;
-    animation: animate linear 11s infinite;
+    animation: animate linear 7s infinite;
 }
 @keyframes animate {
     from{

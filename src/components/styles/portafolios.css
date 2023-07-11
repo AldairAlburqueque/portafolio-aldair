@@ -1,6 +1,7 @@
 .card_portafolio{
     /* background-color: var(--skyBlue) ; */
-    background: linear-gradient(rgb(54, 54, 212), rgb(223, 174, 182));
+    background: linear-gradient(rgb(36, 143, 230), rgb(223, 145, 158));
+    
     width: 100%;
     min-height: 100vh;
     padding-bottom: 1rem;

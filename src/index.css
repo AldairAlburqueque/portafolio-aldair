@@ -8,9 +8,7 @@ html{
   scroll-behavior: smooth;
 }
 body{
-  font-family: 'Nunito', sans-serif;
-  
-  /* background-color: var(--color-body); */
+  font-family: 'Lora', serif;
 }
 a{
   text-decoration: none;

@@ -49,12 +49,12 @@ const About = () => {
 
   return (
     
-    <div className={`presentacion }`}>
+    <div className={`presentacion`} >
       <div className= {`about_img ${scrollTo ? 'fade-in' : ''}`}>
         <img src="./about.jpg" alt="" />
       </div>
-      <div className={`about ${scrollAbout ? 'fade' : ''}`} id='sobreMi'>
-        <h2 className='about-title'>Sobre mí</h2>
+      <div className={`about ${scrollAbout ? 'fade' : ''}`} >
+        <h2 className='about-title'  id='sobreMi'>Sobre mí</h2>
         <p >Hola, soy un desarrollador web con la capacidad necesaria para realizar o resolver cualquier proyecto web. Una persona que está en constante aprendizaje así como también está dispuesto ayudar a quienes lo necesiten. Apasionado del mundo tecnológico y gamer.
           Recuerda :¡Tus metas, son las mías!
         </p>

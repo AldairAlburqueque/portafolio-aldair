@@ -1,5 +1,5 @@
 .contact {
-    z-index: 5000;
+    /* z-index: 5000; */
     min-height: 100vh;
 }
 .section_title{
@@ -50,6 +50,7 @@
 .contact_card-title,
 .contact_card-data{
     font-size: 1rem;
+    margin-top: 10px;
 }
 
 .contact_card-data{
@@ -103,7 +104,7 @@
 }
 
 ::placeholder {
-    color: rgb(212, 212, 212);
+    color: rgb(185, 185, 185);
 }
 
 .contact_form-tag{
