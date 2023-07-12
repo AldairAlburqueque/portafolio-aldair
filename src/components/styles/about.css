@@ -11,34 +11,25 @@
     content: '';
     width: 100%;
     height: 3px;
-    background: linear-gradient(45deg, rgb(65, 47, 170), rgb(4, 252, 219));
-    /* animation: parp 5s infinite ease-out; */
-    animation: parp 2s infinite  linear;
+    background: linear-gradient(45deg, rgb(106, 87, 214), rgb(4, 252, 219));
+    animation: parp 2s infinite backwards;
 }
-/* @keyframes parp {
-    0% {
-        transform: translate3d(0, 0, 0);
-    }
-    100% {
-        transform: translate3d(1500px, 0, 0); 
-    }
-} */
 
 .presentacion::after{
     content: '';
     width: 100%;
     height: 3px;
     background: linear-gradient(45deg, rgb(90, 90, 226), rgb(245, 181, 42));
-    animation: slide 1s infinite;
+    animation: parp 2s infinite;
 }
-/* @keyframes slide {
-    0% {
-        transform: translate3d(0, 0, 0);
-    }
-    100% {
-        transform: translate3d(-1500px, 0, 0); 
-    }
-} */
+
+@keyframes parp {
+    to{
+        background: linear-gradient(45deg,rgb(4, 252, 219), rgb(65, 47, 170) ) ;
+        box-shadow: 0 0 20px #33dada ;
+    } 
+}
+
 .about_img{
     transition: transform .7s ease;
     transform: translateX(-130%);
