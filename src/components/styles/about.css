@@ -19,7 +19,7 @@
     content: '';
     width: 100%;
     height: 3px;
-    background: linear-gradient(45deg, rgb(90, 90, 226), rgb(245, 181, 42));
+    background: linear-gradient(45deg, rgb(90, 90, 226), rgb(42, 187, 245));
     animation: parp 2s infinite;
 }
 

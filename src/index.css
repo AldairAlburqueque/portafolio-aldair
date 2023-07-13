@@ -15,6 +15,7 @@ a{
 }
 h2{
   font-weight: 800;
+  font-size: 50px;
   color: var(--skyBlue);
 }
 img{
