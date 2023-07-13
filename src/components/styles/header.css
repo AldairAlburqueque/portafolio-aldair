@@ -4,7 +4,8 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background: linear-gradient(45deg, rgb(121, 190, 218), rgb(5, 230, 247));
+  /* background: linear-gradient(45deg, rgb(121, 190, 218), rgb(5, 230, 247)); */
+  background: #424242;
   padding: 0 0.4em;
   position: fixed;
   z-index: 1000;
@@ -104,7 +105,8 @@
     flex-direction: row;
     align-items: center;
     justify-content: flex-end;
-    background: linear-gradient(45deg, rgb(121, 190, 218), rgb(5, 230, 247));
+    /* background: linear-gradient(45deg, rgb(121, 190, 218), rgb(5, 230, 247)); */
+    background: #424242;
     position: absolute;
     display: flex;
   }
