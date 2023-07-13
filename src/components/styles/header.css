@@ -4,7 +4,6 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  /* background: linear-gradient(45deg, rgb(121, 190, 218), rgb(5, 230, 247)); */
   background: #424242;
   padding: 0 0.4em;
   position: fixed;
@@ -29,7 +28,7 @@
   transform: translateX(0);
 }
 .menu_list{
-  background: rgb(88, 192, 233);
+  background: #212121;
   display: flex;
   flex-direction:column;
   width: 70%;
@@ -44,25 +43,29 @@
   text-decoration: none;
   font-weight: bold;
   position: relative;
-
+  text-align: start;
 }
 
 .link_item::after{
   position: absolute;
   content: '';
-  background-color: black;
-  bottom: -5px;
+  background-color: #fff;
+  bottom: -7px;
   left: 0;
-  width: 0%;
+  width: 100%;
   height: 3px;
-  transition: 0.3s ease all;
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 0.3s ease-in-out;
+}
+.link_item:hover::after{
+  transform: scaleX(1);
 }
 .link_item a{
   color: #fff; 
 }
 
 .link_item a:hover {
-  color: rgb(230, 4, 4); 
   font-size: 1.01rem;
 }
 
@@ -105,7 +108,6 @@
     flex-direction: row;
     align-items: center;
     justify-content: flex-end;
-    /* background: linear-gradient(45deg, rgb(121, 190, 218), rgb(5, 230, 247)); */
     background: #424242;
     position: absolute;
     display: flex;
@@ -115,28 +117,11 @@
     margin-top: 0;
     margin-right: 2em;
   }
-  .link_item::after a{
-    content: '';
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        border-top: 2px solid #262626;
-        border-bottom: 2px solid #262626;
-        transform: scaleY(2);
-        opacity: 0;
-        transition: .3s;
-  }
-  .link_item:hover a{
-    color: rgb(248, 55, 7);  
-    
-  }
 
   .menu_hamburguer{
     position: absolute;
     right: 0;
-    background-color: aqua;
+    background-color: #212121;
   
   }
   .bx-x{
