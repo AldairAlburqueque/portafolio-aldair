@@ -26,7 +26,7 @@ const Contact = () => {
 
       <div className="contact_container container grid">
         <div className="contact_content">
-          <h3 className="contact_title">Talk to me</h3>
+          <h3 className="contact_title">Escríbeme</h3>
 
           <div className="contact_info">
             <div className="contact_card">
@@ -53,7 +53,7 @@ const Contact = () => {
         </div>
 
         <div className="contact_content">
-          <h3 className="contact_title">Write me your project</h3>
+          <h3 className="contact_title">Escríbeme tu proyecto</h3>
 
           <form  
           className="contact_form"
@@ -61,7 +61,7 @@ const Contact = () => {
           ref={form}
           action="" >
             <div className="contact_form-div">
-              <label htmlFor="" className="contact_form-tag">Name</label>
+              <label htmlFor="" className="contact_form-tag">Nombre</label>
               <input id="send" type="text" name='name' className='contact_form-input' placeholder='Insert your name' 
               required          
               />
@@ -75,7 +75,7 @@ const Contact = () => {
             </div>
 
             <div className="contact_form-div contact_form-area">
-              <label htmlFor="" className="contact_form-tag">Message</label>
+              <label htmlFor="" className="contact_form-tag">Mensaje</label>
               <textarea id="send" name="project" cols="30" rows="10" className='contact_form-input' placeholder='Writer your message'
               required
               ></textarea>
