@@ -17,8 +17,8 @@ function App() {
   return (
     <div className="App"
       style={{
-        background : darkMode? '' : '#232741',
-        color : darkMode? 'black' : 'white',
+        background : darkMode? '' : '#121212',
+        color : darkMode? 'black' : 'rgb(209 213 219)',
       }}
     > 
       <Header />

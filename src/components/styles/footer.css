@@ -1,12 +1,33 @@
 .footer{
     background-color: #212121;
     color: white;
-    height:100px;
+    height:20rem;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     bottom: 0;
+}
+
+.footer_menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+
+.footer_list {
+    
+    padding: 5px;
+    
+}
+.footer_list:hover {
+    background-color: var(--skyBlue);
+    border-radius: 5px;
+}
+
+.footer_list a {
+    color: white;
 }
 
 .g-bx{

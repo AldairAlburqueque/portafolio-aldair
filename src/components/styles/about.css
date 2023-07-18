@@ -9,23 +9,25 @@
 
 .presentacion::before{
     content: '';
-    width: 100%;
-    height: 3px;
+    width: 88%;
+    height: 5px;
+    border-radius: 15px;
     background: linear-gradient(45deg, rgb(106, 87, 214), rgb(4, 252, 219));
-    animation: parp 2s infinite backwards;
+    animation: parp 3s infinite backwards;
 }
 
 .presentacion::after{
     content: '';
-    width: 100%;
-    height: 3px;
-    background: linear-gradient(45deg, rgb(90, 90, 226), rgb(42, 187, 245));
-    animation: parp 2s infinite;
+    width: 88%;
+    height: 5px;
+    border-radius: 15px;
+    background: linear-gradient(45deg, rgb(77, 192, 228), rgb(11, 179, 245));
+    animation: parp 3s infinite;
 }
 
 @keyframes parp {
     to{
-        background: linear-gradient(45deg,rgb(4, 252, 219), rgb(65, 47, 170) ) ;
+        background: linear-gradient(45deg,rgb(4, 223, 252), rgb(32, 169, 233) ) ;
         box-shadow: 0 0 20px #33dada ;
     } 
 }

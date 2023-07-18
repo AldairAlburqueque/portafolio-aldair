@@ -92,7 +92,7 @@
     left: 0;
     width: 100%;
     height: 100%;
-    border: 2px solid  rgba(0, 0, 0, 0.3);
+    border: 2px solid  var(--skyBlue);
     background: rgba(192, 209, 228, 0.466);
     z-index: 100;
     /* outline: none; */
@@ -131,7 +131,7 @@
     width: 40%;
     padding: 10px;
     border-radius: 5px;
-    background-color: var(--purple);
+    background-color: var(--skyBlue);
     color: inherit;
     transition: transform 0.5s ease-in-out;
 }
