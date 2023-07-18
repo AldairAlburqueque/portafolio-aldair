@@ -31,7 +31,7 @@
 }
 
 .contact_card{
-    border: 1px solid rgba(0, 0, 0, 0.3);;
+    border: 2px solid var(--skyBlue);
     padding: 1rem;
     border-radius: 0.7rem;
     text-align: center;
