@@ -3,22 +3,23 @@
 }
 .skill_name{
     padding: 50px;
-    margin-bottom: 100px;
 }
 .skills_title{
-    font-size: 1.7em;
+    font-size: 3rem;
     text-align: center;
 }
 
-
 .bx-skill{
-    font-size: 60px;
+    font-size: 70px;
 }
 .bxl-html5{
     color: rgb(231, 115, 19);
 }
 .bxl-css3{
     color: rgb(28, 28, 245);
+}
+.bxl-bootstrap {
+    color: rgb(76, 11, 206);
 }
 .bxl-redux {
     color: rgb(118, 74, 188);
@@ -38,92 +39,31 @@
 .bxl-postgresql {
     color: rgb(51, 103, 145);
 }
-.skills{
-    display: flex;
-    flex-wrap: wrap;
+.skill_ul{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 220px);
     justify-content: center;
+}
+.skill_list{
+    height: 100px;
+    background-color: rgb(65, 64, 64);
+    color: #fff;
+    margin: 15px;
+    display: flex;
+    flex-direction: column;
     align-items: center;
-    margin: 100px;
-    gap: 5rem;
-    perspective: 1000px;
+    justify-content: center;
+    border-radius: 5px;
+    box-shadow: 0 5px 5px var(--skyBlue);
+}
+.skill_list:hover {
+    transform: scale(1.02);
 }
 
-.cube{
-    height: 140px;
-    width: 140px;
-    position: relative;
-    transform-style: preserve-3d;
-    animation: animate linear 7s infinite;
-}
-@keyframes animate {
-    from{
-        transform: rotateY(0deg) rotateY(90deg);
+@media (min-width: 1080px) {
+    .skill_ul{
+        display: grid;
+        grid-template-columns: repeat(auto-fill, 350px);
+        justify-content: center;
     }
-
-    to{
-        transform: rotateY(90deg) rotateY(360deg);
-    }
-}
-.cube li {
-    height: 140px;
-    width: 140px;
-    text-align: center;
-    padding: 40px 0px;
-    color: white;
-    background: linear-gradient(#929292 10%, rgb(56, 219, 219));
-    border: 2px solid rgb(223, 223, 222);
-    box-sizing: border-box;
-    position: absolute;
-}
-.front{
-    transform: translateZ(70px);
-    display: flex;
-    flex-direction: column;
-}
-.back{
-    transform: translateZ(-70px);
-    display: flex;
-    flex-direction: column;;
-}
-.back::after{
-    content: 'Redux';
-    transform: rotateY(180deg);
-}
-
-.back_two{
-    transform: translateZ(-70px);
-    display: flex;
-    flex-direction: column;;
-}
-.back_two::after{
-    content: 'Git';
-    transform: rotateY(180deg);
-}
-.left{
-    right: 70px;
-    transform: rotateY(-90deg);
-    display: flex;
-    flex-direction: column;
-}
-.right{
-    left: 70px;
-    transform: rotateY(90deg);
-    display: flex;
-    flex-direction: column;
-}
-.top{
-    bottom: 70px;
-    transform: rotateX(90deg);
-}
-
-.bottom{
-    top: 70px;
-    transform: rotateX(-90deg); 
-}
-
-@media (min-width:650px){
-    .skills{
-    margin: 0 10%;
-    gap: 15rem;
-}
 }

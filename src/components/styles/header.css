@@ -1,5 +1,5 @@
 .header{
-  height: 10vh;
+  height: 8vh;
   width: 100%;
   display: flex;
   justify-content: space-between;
@@ -65,10 +65,6 @@
   color: #fff; 
 }
 
-.link_item a:hover {
-  font-size: 1.01rem;
-}
-
 .menu_hamburger{
   z-index: 300;
   cursor:  pointer;
@@ -93,6 +89,9 @@
 }
 
 @media (min-width:650px){
+  .header {
+    height: 10vh;
+  }
   .menu_hamburger{
     display: none;
   }

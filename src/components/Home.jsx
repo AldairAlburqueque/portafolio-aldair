@@ -8,7 +8,7 @@ const Home = () => {
     <div className='home'>
       <div className='i-left'>
         <div className="i-name">
-          <span className='title_span'>Hola, mi nombre es :</span> 
+          <span className='title_span'>Hola, soy :</span> 
           <Typewriter
           options={{
             strings: ['< Aldair />'],
@@ -18,7 +18,7 @@ const Home = () => {
               backSpeed: 60,
           }}
         />
-          <span className='text_span'>Soy desarrollador web full-stack junior, trabajo  con react.js y node.js(express).</span>
+          <span className='text_span'>Soy desarrollador web full-stack junior, trabajo  con React.js y Node.js(Express, Postgres).</span>
         </div>
         <div className="i-icons">
           <ul className='social'>

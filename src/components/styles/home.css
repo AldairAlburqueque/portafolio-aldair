@@ -54,10 +54,10 @@
 }
 .photo{
     height: 400px;
-    max-width: 500px;
+    /* max-width: 500px; */
     right: 0;
     overflow: hidden;
-    border-radius: 15px;
+    border-radius: 10px;
 }
 
 .social
