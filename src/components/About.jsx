@@ -59,7 +59,7 @@ const About = () => {
           Recuerda :¡Tus metas, son las mías!
         </p>
           <button className='pdf_btn'>
-            <a href="./downloads/Curriculum-A4.pdf" download>{' '}Download CV </a>
+            <a href="./downloads/Curriculum.pdf" download>{' '}Download CV </a>
             <i className='bx bxs-download' ></i>
           </button>
       </div>
