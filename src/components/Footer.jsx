@@ -14,6 +14,26 @@ const Footer = () => {
   return (
     <div className='footer'>
 
+      <ul className='footer_contact'>
+        <li>
+          <a href="https://github.com/AldairAlburqueque" target='blank_'>
+            <i className='bx bf bxl-github'></i>
+          </a>
+          Git 
+        </li>
+        <li>
+          <a href="https://api.whatsapp.com/send?phone=972751508&text=Hello, more information1" target='blank_'> <i className="bx bxl-whatsapp bf "></i>{' '}</a>
+          WhatsApp
+        </li>
+        <li>
+          <a href="https://www.linkedin.com/feed/" target='_blank'>
+            <i className='bx bf  bxl-linkedin'></i>
+            </a>
+            Linkedin
+        </li>
+      </ul>
+      
+
       <ul className="footer_menu">
           <li className='footer_list'>
             <a href="#" onClick={handleMenu}>Home</a>
@@ -32,7 +52,6 @@ const Footer = () => {
           </li>
         </ul>
 
-      {/* <i className='bx bxl-github g-bx'></i> */}
     </div>
   )
 }

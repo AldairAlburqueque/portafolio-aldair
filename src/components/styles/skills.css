@@ -46,7 +46,7 @@
 }
 .skill_list{
     height: 100px;
-    background-color: rgb(65, 64, 64);
+    background-color: rgb(83, 83, 83);
     color: #fff;
     margin: 15px;
     display: flex;
@@ -57,36 +57,36 @@
     box-shadow: 0 5px 5px var(--skyBlue);
 }
 .skill_list:nth-child(1){
-    box-shadow: 0 4px 7px  rgb(231, 115, 19);
+    box-shadow: 0 2px 4px  rgb(231, 115, 19);
 }
 .skill_list:nth-child(2){
-    box-shadow: 0 4px 7px  rgb(28, 28, 245);
+    box-shadow: 0 2px 4px  rgb(28, 28, 245);
 }
 .skill_list:nth-child(3){
-    box-shadow: 0 4px 7px  rgb(76, 11, 206);
+    box-shadow: 0 2px 4px  rgb(76, 11, 206);
 }
 .skill_list:nth-child(4){
-    box-shadow: 0 4px 7px   rgb(248, 248, 13);
+    box-shadow: 0 2px 4px   rgb(248, 248, 13);
 }
 .skill_list:nth-child(5){
-    box-shadow: 0 4px 7px  rgb(11, 245, 245);
+    box-shadow: 0 2px 4px  rgb(11, 245, 245);
 }
 .skill_list:nth-child(6){
-    box-shadow: 0 4px 7px  rgb(118, 74, 188);
+    box-shadow: 0 2px 4px  rgb(118, 74, 188);
 }
 .skill_list:nth-child(7){
-    box-shadow: 0 4px 7px  rgb(3, 143, 3);
+    box-shadow: 0 2px 4px  rgb(3, 143, 3);
 }
 .skill_list:nth-child(8){
-    box-shadow: 0 4px 7px  rgb(51, 103, 145);
+    box-shadow: 0 2px 4px  rgb(51, 103, 145);
 }
 .skill_list:nth-child(9){
-    box-shadow: 0 4px 7px  rgb(15, 15, 15);
+    box-shadow: 0 2px 4px  rgb(15, 15, 15);
 }
 
 
 .skill_list:hover {
-    transform: scale(1.02);
+    transform: scale(1.01);
 }
 
 @media (min-width: 1080px) {

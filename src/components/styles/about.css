@@ -10,7 +10,7 @@
 .presentacion::before{
     content: '';
     width: 88%;
-    height: 5px;
+    height: 2px;
     border-radius: 15px;
     background: linear-gradient(45deg, rgb(106, 87, 214), rgb(4, 252, 219));
     animation: parp 3s infinite backwards;
@@ -19,7 +19,7 @@
 .presentacion::after{
     content: '';
     width: 88%;
-    height: 5px;
+    height: 2px;
     border-radius: 15px;
     background: linear-gradient(45deg, rgb(77, 192, 228), rgb(11, 179, 245));
     animation: parp 3s infinite;

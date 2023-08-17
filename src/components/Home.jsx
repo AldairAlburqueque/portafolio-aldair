@@ -15,7 +15,7 @@ const Home = () => {
             autoStart: true,
             loop: true,
             typeSpeed: 90,
-              backSpeed: 60,
+            backSpeed: 60,
           }}
         />
           <span className='text_span'>Soy desarrollador web full-stack junior, trabajo  con React.js y Node.js(Express, Postgres).</span>

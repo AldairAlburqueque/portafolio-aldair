@@ -1,18 +1,20 @@
 .footer{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
     background-color: #212121;
     color: white;
     height:20rem;
     display: flex;
-    flex-direction: column;
     align-items: center;
     justify-content: center;
-    bottom: 0;
+    gap: 2rem;
 }
 
 .footer_menu {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: start;
     gap: 5px;
 }
 
@@ -35,4 +37,27 @@
     border: solid 1px white;
     border-radius: 50px;
     box-shadow: 0 0 3px white inset;
+}
+
+.footer_contact {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+.footer_contact a{
+    margin: 10px;
+}
+
+.footer_menu::before, .footer_contact::before{
+    content: '';
+    width: 100px;
+    height: 1px;
+    background : white;
+}
+
+.bf {
+    color: white;
+    font-size: 1.3rem;
 }
