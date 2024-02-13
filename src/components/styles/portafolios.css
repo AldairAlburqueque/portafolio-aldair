@@ -1,5 +1,4 @@
 .card_portafolio{
-    background: url('../../../public/back.avif') center;
     width: 100%;
     min-height: 100vh;
     padding-bottom: 1rem;
@@ -10,14 +9,10 @@
 }
 .portafolio_name{
     text-align: center;
-    padding: 30px;
-    
-    
+    padding-top: 30px;
 }
 .portafolio_title{
     font-size: 3rem;
-    margin-bottom: 20px;
-    /* color: rgb(224, 32, 32); */
 }
 .portafolio_text{
     font-size: 1.1em;

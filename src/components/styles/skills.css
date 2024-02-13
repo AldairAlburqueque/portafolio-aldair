@@ -86,7 +86,7 @@
 
 
 .skill_list:hover {
-    transform: scale(1.01);
+    transform: scale(1.003);
 }
 
 @media (min-width: 1080px) {
