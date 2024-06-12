@@ -1,4 +1,55 @@
-.habilidades{
+.slider-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden; /* Oculta las imágenes que están fuera del contenedor */
+    width: 100%;
+  }
+  
+  .image-row {
+    display: flex;
+    white-space: nowrap;
+    width: 100%;
+    margin: 10px 0;
+    animation-timing-function: linear;
+  }
+  
+  .slide-image {
+    width: 200px;
+    height: 150px;
+    object-fit: cover;
+    margin-right: 10px;
+  }
+  
+  /* Animación para mover las imágenes hacia la derecha */
+  .row-right {
+    animation: moveRight 20s linear infinite;
+  }
+  
+  @keyframes moveRight {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-50%);
+    }
+  }
+  
+  /* Animación para mover las imágenes hacia la izquierda */
+  .row-left {
+    animation: moveLeft 20s linear infinite;
+  }
+  
+  @keyframes moveLeft {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(50%);
+    }
+  }
+
+/* .habilidades{
     min-height: 88vh;
 }
 .skill_name{
@@ -95,4 +146,4 @@
         grid-template-columns: repeat(auto-fill, 350px);
         justify-content: center;
     }
-}
+} */
