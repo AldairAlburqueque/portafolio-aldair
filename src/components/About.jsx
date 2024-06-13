@@ -16,7 +16,7 @@ const About = () => {
           if (isInViewport(cardEventElement)) {
               setScrollTo(true);
           } else {
-              setScrollTo(false);
+              setScrollTo(false);f
           }
       }
       

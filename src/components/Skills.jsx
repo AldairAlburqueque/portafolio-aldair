@@ -24,6 +24,7 @@ function Skills() {
       <Wrapper>
         <h2>Skills</h2>
         <Note>Conocimiento y desarrollo en las siguientes tecnologias :</Note>
+
         <Marquee>
           <MarqueeGroup>
             {row1.map((el) => (
@@ -40,6 +41,7 @@ function Skills() {
             ))}
           </MarqueeGroup>
         </Marquee>
+        
         <Marquee>
           <MarqueeGroup2>
             {row2.map((el) => (
@@ -64,7 +66,8 @@ function Skills() {
 export default Skills;
 
 const AppContainer = styled.div`
-  width: 100vw;
+  
+  width: 100%;
   height: 100vh;
   color: #000000;
 
@@ -72,16 +75,17 @@ const AppContainer = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
+  z-index: 10;
 `;
 
 const Wrapper = styled.div`
-  width: 100%;
+  width:100%;
   height: fit-content;
-
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  overflow: hidden;
 `;
 
 const Text = styled.div`
@@ -133,7 +137,8 @@ const common = css`
 `;
 
 const MarqueeGroup = styled.div`
-  ${common}
+  ${common};
+  
 `;
 const MarqueeGroup2 = styled.div`
   ${common}
