@@ -72,6 +72,21 @@ export const Portafolio = () => {
             </div>
             
         </li>
+        <li>
+            <img className='portafolio_img' src="./proyectos-img/port_img_netflix.png" alt="" />
+            <div className="capa">
+              <h3>Netflix Clon</h3>
+              <div className='capa-icons'>
+                <a href="https://github.com/AldairAlburqueque/Netflix-clon" target='blank'>
+                <i className='bx bxl-github'></i>
+                </a>
+                <a href="https://cl0n-netfl1x-siriusbyte-73.netlify.app" target='blank'>
+                <i className='bx bxl-netlify'></i>
+                </a>
+              </div>
+            </div>
+            
+        </li>
       </ul>
       
     </div>
