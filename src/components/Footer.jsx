@@ -18,18 +18,21 @@ const Footer = () => {
         <li>
           <a href="https://github.com/AldairAlburqueque" target='blank_'>
             <i className='bx bf bxl-github'></i>
+            Git 
           </a>
-          Git 
         </li>
         <li>
-          <a href="https://api.whatsapp.com/send?phone=972751508&text=Hello, more information1" target='blank_'> <i className="bx bxl-whatsapp bf "></i>{' '}</a>
-          WhatsApp
+          <a href="https://api.whatsapp.com/send?phone=972751508&text=Hello, more information1" target='blank_'> <i className="bx bxl-whatsapp bf "></i>{' '}
+            WhatsApp
+          </a>
+          
         </li>
         <li>
           <a href="https://www.linkedin.com/feed/" target='_blank'>
             <i className='bx bf  bxl-linkedin'></i>
-            </a>
             Linkedin
+            </a>
+            
         </li>
       </ul>
       

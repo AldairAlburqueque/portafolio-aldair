@@ -18,6 +18,12 @@
     gap: 5px;
 }
 
+.footer_contact a{
+    color: #fff;
+    display: flex;
+    gap: 10px;
+}
+
 .footer_list {
     
     padding: 5px;
@@ -27,6 +33,8 @@
     background-color: var(--skyBlue);
     border-radius: 5px;
 }
+
+
 
 .footer_list a {
     color: white;
