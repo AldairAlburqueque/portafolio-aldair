@@ -18,7 +18,7 @@ const Home = () => {
             backSpeed: 60,
           }}
         />
-          <span className='text_span'>Soy desarrollador web full-stack junior, trabajo  con React.js y Node.js(Express, Postgres).</span>
+          <span className='text_span'>Soy desarrollador web full-stack junior, domino las siguientes tecnologias: React, Node.js(Express), C#(.net) y Java.</span>
         </div>
         <div className="i-icons">
           <ul className='social'>
