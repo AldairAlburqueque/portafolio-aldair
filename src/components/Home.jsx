@@ -18,7 +18,7 @@ const Home = () => {
             backSpeed: 60,
           }}
         />
-          <span className='text_span'>Soy desarrollador web full-stack junior, domino las siguientes tecnologias: React, Node.js(Express), C#(.net) y Java.</span>
+          <span className='text_span'>Soy desarrollador web full-stack junior, domino las siguientes tecnologias: React, Node.js(Express), C#(.net) y Java; estoy constantemente aprendiendo nuevas herramientas.</span>
         </div>
         <div className="i-icons">
           <ul className='social'>
@@ -48,7 +48,8 @@ const Home = () => {
       </div>
 
       <div className="i-right">
-        <img className='photo' src={'./photo-home.jpg'} alt="" />
+       {/* <img className='photo' src={'./photo-home.jpg'} alt="" /> */}
+        <img className='photo' src='https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExYXRxbDkxb2EweTNxYmdwdmhrMzI5NXVmM2phcGxkZ3c0MzVnMnp4bCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ua7vVw9awZKWwLSYpW/giphy.gif'/>
       </div>
     </div>
   )
