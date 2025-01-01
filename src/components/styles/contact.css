@@ -12,16 +12,9 @@
     display: grid;
     grid-template-columns: repeat(2, max-content);
     justify-content: center;
-    column-gap: 6rem;
+    align-items: center;
     padding-bottom: 3rem;
     z-index: 100;
-}
-
-.contact_title{
-    text-align: center;
-    font-size: 1.5rem;
-    font-weight: normal;
-    margin-bottom: 2rem;
 }
 
 .contact_info{
